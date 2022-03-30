@@ -1,5 +1,7 @@
 package cursojava.executavel;
 
+import javax.swing.JOptionPane;
+
 import cursojava.classes.Aluno;
 
 public class PrimeiraClasseJava {
@@ -9,6 +11,8 @@ public class PrimeiraClasseJava {
 		
 		/*New Aluno é uma instância (Criação de Objetos)*/
 		/*aluno1 é uma referência para o objeto aluno*/
+		
+		String nome = JOptionPane.showInputDialog("Qual o nome do aluno ? ");
 		
 		Aluno aluno1 = new Aluno(); /*Aqui será o nome aluno(Esdras)*/
 		aluno1.setNome ("Esdras Pinheiro Alves");
@@ -75,14 +79,6 @@ public class PrimeiraClasseJava {
 		System.out.println("Média Aluno: " + aluno2.getMediaNota());
 
 
-		
-		
-		Aluno aluno3 = new Aluno(); /*Aqui será o Alex*/
-
-		Aluno aluno4 = new Aluno("Maria");
-		
-		Aluno aluno5 = new Aluno("José", 50);
-		
 	}
 
 }
