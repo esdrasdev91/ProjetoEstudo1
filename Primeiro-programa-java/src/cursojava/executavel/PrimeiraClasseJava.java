@@ -39,10 +39,10 @@ public class PrimeiraClasseJava {
 		aluno1.setDataMatricula(dataMatricula);
 		aluno1.setNomeEscola(nomeEscola);
 		aluno1.setSerieMatriculado(serieMatriculado);
-		aluno1.setNota1(Integer.valueOf(nota1));
-		aluno1.setNota2(Integer.valueOf(nota2));
-		aluno1.setNota3(Integer.valueOf(nota3));
-		aluno1.setNota4(Integer.valueOf(nota4));
+		aluno1.setNota1(Double.parseDouble(nota1));
+		aluno1.setNota2(Double.parseDouble(nota2));
+		aluno1.setNota3(Double.parseDouble(nota3));
+		aluno1.setNota4(Double.parseDouble(nota4));
 		
 		
 		System.out.println("Nome: " + aluno1.getNome());
